@@ -4,3 +4,30 @@
     font-family: Raleway, sans-serif;
 }
 
+body {
+    background-image: linear-gradient(to bottom right, #fef0f5, #d6e6fe);
+    height: 100vh;
+}
+
+.center {
+    margin: auto;
+}
+
+.max-width {
+    width: max-content;
+}
+
+h1 {
+    padding-top: 20px;
+    background-image: linear-gradient(to right, #a44f7c, #594955);
+    color: transparent;
+    background-clip: text;
+    width: max-content;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+h2 {
+    font-weight: 200;
+    padding-top: 5px;
+}
