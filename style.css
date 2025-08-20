@@ -10,8 +10,9 @@ body {
     margin-top: 20px;
 }
 
-.center {
+.wrapper {
     margin: auto;
+    padding-inline: 40px;
 }
 
 .max-width {
@@ -91,4 +92,23 @@ button {
 
 button:hover {
     background-image: linear-gradient(to right, #a44f7caf, #594955b6);
+}
+
+@media (width < 560px) {
+.activity {
+width: 300px;
+    }
+}
+
+@media (width < 400px) {
+.activity{
+    margin: auto;
+    width: 200px;
+    }
+
+button {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    }
 }
