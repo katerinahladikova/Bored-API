@@ -31,3 +31,27 @@ h2 {
     font-weight: 200;
     padding-top: 5px;
 }
+
+h3 {
+    padding-top: 30px;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-block: 10px 40px;
+}
+
+.round-filter {
+    border: solid 1px #a44f7c;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 15px;
+}
