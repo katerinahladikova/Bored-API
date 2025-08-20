@@ -16,6 +16,7 @@ body {
 
 .max-width {
     width: max-content;
+    max-width: 100%;
 }
 
 h1 {
@@ -24,6 +25,7 @@ h1 {
     color: transparent;
     background-clip: text;
     width: max-content;
+    max-width: 100%;
     font-weight: 500;
     font-size: 50px;
 }
@@ -56,6 +58,12 @@ input[type=checkbox] {
     border-radius: 20px;
     font-size: 15px;
     cursor: pointer;
+}
+
+input:checked + label {
+    background-image: linear-gradient(to right, #a44f7c, #594955);
+    border: solid 1px #a44f7c00;
+    color: white;
 }
 
 .activity {

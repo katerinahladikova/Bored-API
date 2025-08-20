@@ -23,4 +23,3 @@ getActivity.addEventListener("click", async function(){
     const getRandom = data[Math.floor(Math.random()*data.length)];
     activity.textContent = getRandom.activity
 })
-
