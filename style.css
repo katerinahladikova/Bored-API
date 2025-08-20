@@ -7,6 +7,7 @@
 body {
     background-image: linear-gradient(to bottom right, #fef0f5, #d6e6fe);
     height: 100vh;
+    margin-top: 20px;
 }
 
 .center {
@@ -49,9 +50,37 @@ input[type=checkbox] {
     margin-block: 10px 40px;
 }
 
-.round-filter {
+.round-filter, .activity{
     border: solid 1px #a44f7c;
     padding: 4px 10px;
     border-radius: 20px;
     font-size: 15px;
+    cursor: pointer;
+}
+
+.activity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    height: 40px;
+    font-weight: 600;
+    width: 500px;
+    text-align: center;
+}
+
+
+button {
+    background-image: linear-gradient(to right, #a44f7c, #594955);
+    color: azure;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-image: linear-gradient(to right, #a44f7caf, #594955b6);
 }
